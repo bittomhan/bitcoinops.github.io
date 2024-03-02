@@ -57,7 +57,7 @@ standardized:
         in the automatic anchoring process, some languages need HTML comments
         inserted into the header/bullet to ensure a unique anchor is generated.
         For example, see the `<!--1-->` [comment](https://github.com/bitcoinops/bitcoinops.github.io/commit/4e450d1a1f72219ec50ad91edae605647164d25d#diff-435f99f277721eff9e2f244149575f41R41)
-        in this Japanese newsletter.
+        in this Japanese newsletter or `<!--hash-rate-increases-->` [comment](https://github.com/bitcoinops/bitcoinops.github.io/pull/1529/commits/7ad2960befedee35c1429451ec475406cbb853d6)          in this Chinese newsletter.
 - To help with reviewing, squash commits where it makes sense
 - Using a commit message similar to `news70: add Japanese translation` helps
   keep translations easily visible in the commit log
@@ -65,6 +65,7 @@ standardized:
   - Follow the instuctions in the [README.md](https://github.com/bitcoinops/bitcoinops.github.io/blob/master/README.md)
     - `make preview` to view the local website and review
     - `make production` to run additional checks (link checking, linting, etc)
+      - If you encounter an error with Jekyll translating Chinese characters while using Docker, such as Invalid US-ASCII character "\xE2", consider enforcing the use of English characters.         The command in this case should be docker exec -i bitcoinops /bin/bash -c "export LC_ALL=C.UTF-8 && export LANG=en_US.UTF-8 && export LANGUAGE=en_US.UTF-8 && make production". Here,         export LC_ALL=C.UTF-8 && export LANG=en_US.UTF-8 && export LANGUAGE=en_US.UTF-8 is used to enforce the usage of English characters, and && is followed by make production or make,            depending on your requirement.
   - For the page you have translated, ensure that the language code link shows
     up on the `en` language variant
   - Check that the page renders properly
