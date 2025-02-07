@@ -55,15 +55,15 @@ h2:not(:first-of-type) { margin-top: 3em; }
 
 ## 通过使用学习 Taproot
 
-*最初发表于 [Newsletter #159](/en/newsletters/2021/07/28/#preparing-for-taproot-6-learn-taproot-by-using-it)*
+*最初发表于 [Newsletter #159](/zh/newsletters/2021/07/28/#准备-taproot-6通过使用学习-taproot)*
 
-{% include specials/taproot/en/05-taproot-notebooks.md %}
+{% include specials/taproot/zh/05-taproot-notebooks.md %}
 
-## 多签概述
+## 多签
 
-*最初发表于 [Newsletter #160](/en/newsletters/2021/08/04/#preparing-for-taproot-7-multisignatures)*
+*最初发表于 [Newsletter #160](/zh/newsletters/2021/08/04/#准备-taproot-7多签)*
 
-{% include specials/taproot/en/06-multisignatures.md %}
+{% include specials/taproot/zh/06-multisignatures.md %}
 
 ## 多签随机数
 
