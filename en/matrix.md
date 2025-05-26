@@ -265,7 +265,7 @@ th, td {
           <td><font size="3">{{tool.category}}</font></td>
           <td>
                 <div class="tooltip-container"> <!-- Everything within this division activates the tooltip container -->
-                <span class="tooltip">{{tool.keyfeatures}}</span> <!-- This span contains the tooltip text for the tooltip container -->
+                <span class="tooltip">"<em>{{tool.keyfeatures}}</em>"</span> <!-- This span contains the tooltip text for the tooltip container -->
                 &#x1F4A1;
                 </div>
           </td>
@@ -384,7 +384,7 @@ th, td {
 
 <br/>
 _Contributions and corrections are welcome. Please see the [contibuting
-guidelines](https://github.com/bitcoinops/bitcoinops.github.io/blob/master/CONTRIBUTING.md#compatibility-matrix-data)
+guidelines](https://github.com/bitcoinops/bitcoinops.github.io/blob/master/CONTRIBUTING.md#bitcoin-feature-matrix-data)
 for details._
 {: style="text-align: center;"}
 
