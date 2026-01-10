@@ -76,6 +76,27 @@ optech_mentions:
   - title: Report about quantum computing and Bitcoin
     url: /en/newsletters/2025/06/06/#quantum-computing-report
 
+  - title: "Prototype implementation of Winternitz signatures for Bitcoin using `OP_CAT`"
+    url: /en/newsletters/2025/07/04/#op-cat-enables-winternitz-signatures
+
+  - title: "Commit/reveal function for post-quantum recovery of insecure bitcoins"
+    url: /en/newsletters/2025/07/04/#commit-reveal-function-for-post-quantum-recovery
+
+  - title: "Research indicates many Bitcoin primitives are compatible with quantum-resistant signatures"
+    url: /en/newsletters/2025/07/25/#research-indicates-common-bitcoin-primitives-are-compatible-with-quantum-resistant-signature-algorithms
+
+  - title: "Discussion about forcing migration from quantum-vulnerable outputs"
+    url: /en/newsletters/2025/08/01/#migration-from-quantum-vulnerable-outputs
+
+  - title: "Paper analyzes the security of taproot commitments against quantum computers"
+    url: /en/newsletters/2025/08/01/#security-against-quantum-computers-with-taproot-as-a-commitment-scheme
+
+  - title: "SLH-DSA (SPHINCS) post-quantum signature optimizations"
+    url: /en/newsletters/2025/12/05/#slh-dsa-sphincs-post-quantum-signature-optimizations
+
+  - title: "Technical report of hash-based post-quantum signature schemes"
+    url: /en/newsletters/2026/01/02/#hash-based-signatures-for-bitcoin-s-post-quantum-future
+
 ## Optional.  Same format as "primary_sources" above
 see_also:
   - title: Taproot
