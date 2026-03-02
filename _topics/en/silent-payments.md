@@ -83,6 +83,15 @@ optech_mentions:
   - title: "Draft BIP for silent payment descriptors"
     url: /en/newsletters/2026/01/09/#draft-bip-for-silent-payment-descriptors
 
+  - title: "Electrum server for testing silent payments"
+    url: /en/newsletters/2026/01/23/#electrum-server-for-testing-silent-payments
+
+  - title: "Proposal to limit the number of per-group silent payment recipients"
+    url: /en/newsletters/2026/02/13/#proposal-to-limit-the-number-of-per-group-silent-payment-recipients
+
+  - title: "Nunchuk adds silent payment support"
+    url: /en/newsletters/2026/02/20/#nunchuk-adds-silent-payment-support
+
 ## Optional.  Same format as "primary_sources" above
 see_also:
   - title: Output linking

@@ -2,6 +2,9 @@
 title: Consensus cleanup soft fork
 shortname: consensus cleanup
 
+title-aliases:
+  - BIP54
+
 ## Required.  At least one category to which this topic belongs.  See
 ## schema for options
 topic-categories:
@@ -80,6 +83,12 @@ optech_mentions:
   - title: "Discussion of BIP54's timewarp fix and its impact on the 2106 block timestamp overflow issue"
     url: /en/newsletters/2026/01/02/#relax-bip54-timestamp-restriction-for-2106-soft-fork
 
+  - title: "Addressing remaining points on BIP54"
+    url: /en/newsletters/2026/02/06/#addressing-remaining-points-on-bip54
+
+  - title: "Bitcoin Inquisition adds an implementation of the BIP54 consensus cleanup soft fork rules"
+    url: /en/newsletters/2026/02/13/#bitcoin-inquisition-99
+
 ## Optional.  Same format as "primary_sources" above
 see_also:
  - title: Soft fork activation
@@ -88,3 +97,30 @@ see_also:
  - title: "CVE-2017-12842: fake SPV proofs using 64-byte transactions"
    link: "https://bitcoinops.org/en/topics/cve/#CVE-2017-12842"
 ---
+After a prior draft in 2019 was deferred, renewed efforts since 2023
+substantiated into a concrete proposal, BIP54: Consensus Cleanup. The soft fork
+proposal advocates for fixing the following four issues.
+
+- **Time warp bug**: an [off-by-one error][topic time warp] in the difficulty adjustment algorithm
+  permits a majority hashrate attacker to arbitrarily increase block cadence.
+  This is mitigated by limiting the permitted timestamps for the first block
+  in difficulty periods and requiring that an entire difficulty period has
+  a non-negative duration.
+
+- **Slow-to-validate blocks**: attackers may use uncommon script patterns to compose blocks
+  that are prohibitively expensive to process. These forms of malicious
+  transactions are prevented by introducing limits on signature operations
+  that curb this malicious use but far exceed organic uses.
+
+- **Merkle tree weakness**: the construction of the merkle tree on a block’s
+  transactions treats transactions with witness-stripped sizes of
+  64 bytes indistinguishably from inner nodes. Forbidding such transactions prevents two ways of
+  [misrepresenting the content][topic merkle tree vulnerabilities] of a valid block.
+
+- **Duplicate transaction vector**: Some early coinbase transactions exhibit
+  patterns that would allow them to be [replayed][topic duplicate transactions] in future blocks. Requiring
+  that the locktime of coinbase transactions is set to a specific value based
+  on the block height enforces that future coinbase transactions are unique
+  without needing to enforce BIP30 checks for those blocks.
+
+{% include references.md %}

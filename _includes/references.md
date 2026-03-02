@@ -115,11 +115,13 @@ for details --> {% endcomment %}
 [BIP86]: https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki
 [BIP87]: https://github.com/bitcoin/bips/blob/master/bip-0087.mediawiki
 [BIP88]: https://github.com/bitcoin/bips/blob/master/bip-0088.mediawiki
+[bip89]: https://github.com/bitcoin/bips/blob/master/bip-0089.mediawiki
 [BIP90]: https://github.com/bitcoin/bips/blob/master/bip-0090.mediawiki
 [BIP91]: https://github.com/bitcoin/bips/blob/master/bip-0091.mediawiki
 [BIP93]: https://github.com/bitcoin/bips/blob/master/bip-0093.mediawiki
 [BIP94]: https://github.com/bitcoin/bips/blob/master/bip-0094.mediawiki
 [BIP103]: https://github.com/bitcoin/bips/blob/master/bip-0103.mediawiki
+[BIP110]: https://github.com/bitcoin/bips/blob/master/bip-0110.mediawiki
 [BIP111]: https://github.com/bitcoin/bips/blob/master/bip-0111.mediawiki
 [BIP112]: https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki
 [BIP113]: https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki
@@ -178,6 +180,7 @@ for details --> {% endcomment %}
 [BIP341]: https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki
 [BIP342]: https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki
 [BIP345]: https://github.com/bitcoin/bips/blob/master/bip-0345.mediawiki
+[BIP346]: https://github.com/bitcoin/bips/blob/master/bip-0346.md
 [BIP347]: https://github.com/bitcoin/bips/blob/master/bip-0347.mediawiki
 [BIP348]: https://github.com/bitcoin/bips/blob/master/bip-0348.md
 [BIP349]: https://github.com/bitcoin/bips/blob/master/bip-0349.md
@@ -204,6 +207,8 @@ for details --> {% endcomment %}
 [BIP389]: https://github.com/bitcoin/bips/blob/master/bip-0389.mediawiki
 [BIP390]: https://github.com/bitcoin/bips/blob/master/bip-0390.mediawiki
 [BIP431]: https://github.com/bitcoin/bips/blob/master/bip-0431.mediawiki
+[BIP434]: https://github.com/bitcoin/bips/blob/master/bip-0434.md
+[BIP433]: https://github.com/bitcoin/bips/blob/master/bip-0433.mediawiki
 [BIP443]: https://github.com/bitcoin/bips/blob/master/bip-0443.mediawiki
 
 {% for i in (1..10) %}
