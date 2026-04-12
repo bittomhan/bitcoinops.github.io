@@ -109,6 +109,21 @@ optech_mentions:
   - title: "SLH-DSA verification can compete with ECC"
     url: /en/newsletters/2026/02/06/#slh-dsa-verification-can-compete-with-ecc
 
+  - title: "Hourglass V2 proposal to limit P2PK spends"
+    url: /en/newsletters/2026/03/06/#hourglass-v2-update
+
+  - title: "Discussion of cryptographic algorithm agility in Bitcoin"
+    url: /en/newsletters/2026/03/06/#algorithm-agility-for-bitcoin
+
+  - title: "Discussion of the limits of cryptographic algorithm agility in Bitcoin"
+    url: /en/newsletters/2026/03/06/#the-limitations-of-cryptographic-agility-in-bitcoin
+
+  - title: "Compact Isogeny PQC can replace HD wallets, key-tweaking, silent payments"
+    url: /en/newsletters/2026/04/03/#compact-isogeny-pqc-can-replace-hd-wallets-key-tweaking-silent-payments
+
+  - title: "SHRIMPS: 2.5 KB post-quantum signatures across multiple stateful devices"
+    url: /en/newsletters/2026/04/03/#shrimps-2-5-kb-post-quantum-signatures-across-multiple-stateful-devices
+
 ## Optional.  Same format as "primary_sources" above
 see_also:
   - title: Taproot
